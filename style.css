@@ -1,0 +1,28 @@
+.container {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    border: 2px solid brown;
+    border-radius: 0.5rem;
+    padding: 20px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+#btn {
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(199, 129, 97);
+    border-radius: 1rem;
+}
+
+#output {
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+    color: brown;
+}
