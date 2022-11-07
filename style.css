@@ -1,28 +1,43 @@
 .container {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: auto;
-    margin-left: 20vw;
-    margin-right: 20vw;
-    border: 2px solid brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20vh 20vw 20vw 20vw ;
+    border: 0.5rem solid brown;
     border-radius: 0.5rem;
     padding: 20px;
     text-align: center;
+    text-decoration-color: brown;
+}
+h2{
+    font-size: 2rem;
+    color: rgb(182, 130, 113);
+    text-decoration: underline;
 }
 
 label {
     font-weight: bold;
+    font-size: larger;
+    color: brown;
 }
-
+input {
+    padding: 0.5rem 2rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: rgb(183, 94, 62);
+    border-radius: 1rem;
+}
 #btn {
-    margin: 10px;
-    padding: 5px;
+    margin-top: 30px;
+    padding: 1rem;
     background-color: rgb(199, 129, 97);
     border-radius: 1rem;
+    font-size: larger;
+    font-weight: bold;
 }
 
 #output {
-    font-size: large;
+    font-size: 2rem;
     font-family: monospace;
     font-weight: bold;
-    color: brown;
+    color: rgb(195, 71, 71);
+    
 }
